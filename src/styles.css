@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+body{
+    background-color: black;
+    color: white;
+}
+.navbar{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 3% 5%;
+    z-index: 10;
+}
+.navbar-brand{
+    width: 100%;
+    height: 100%;
+}
+.brand-logo{
+    width: 90px;
+    height: 90px;
+}
+.language-DropDown{
+    background: transparent;
+    border: none;
+    color: white;
+}
+.language-DropDown:focus{
+    outline: none;
+}
+.dropdown-container{
+    border: 1px solid white;
+    padding: 0.4rem;
+    border-radius: 4px;
+    background-image: linear-gradient(to top,rgba(0,0,0,0.8) 0,rgba(0,0,0,0) 60%,rgba(0,0,0,0.8) 100%);
+}
+.sign-btn{
+    background-color: #dc030f;
+    border: 1px solid #dc030f;
+    color: white;
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+}
+.navbar-nav-items{
+    display: flex;
+    gap: 10px;
+}
+.hero-bg-image-container{
+    width: 100%;
+    height: 75vh;
+}
+.hero-bg-image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.hero-bg-overlay{
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 75vh;
+    background-image: linear-gradient(to top,rgba(0,0,0,0.8) 0,rgba(0,0,0,0) 60%,rgba(0,0,0,0.8) 100%);
+
+}
+.hero-card{
+    position: absolute;
+    top: 30%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.hero-title{
+    font-weight: 600;
+    font-size: 2rem;
+}
+.hero-subtitle,
+.hero-description{
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+@media (min-width: 768px){
+    .hero-bg-image-container{
+        height: 100vh;
+    }
+    .hero-bg-overlay{
+        height: 100vh;
+    }
+    .hero-card{
+        top: 50%;
+        left: 30%;
+        transform: translate(-20%, -20%);
+    }
+    .hero-title{
+        font-size: 3rem;
+    }
+    .hero-subtitle,
+    .hero-description{
+        font-size: 1.3rem;
+    }
+}
+@media (min-width: 1024px){
+    .navbar{
+        padding: 2% 5%;
+    }
+    .navbar-brand{
+        width: 200px;
+    }
+    .sign-btn{
+        padding: 10px 20px;
+        font-size: 10px;
+    }
+    .dropdown-container{
+        padding: 10px 5px;
+    }
+    .navbar-nav-items{
+        gap: 30px;
+    }
+    .hero-card{
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+@media (min-width: 1254px){
+    
+}
