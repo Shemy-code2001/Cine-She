@@ -1,0 +1,55 @@
+{
+    "users": [
+      {
+        "id": 1,
+        "name": "Shemy Code",
+        "email": "shemycode@gmail.com"
+      },
+      {
+        "id": 2,
+        "name": "Jane Smith",
+        "email": "janesmith@example.com"
+      },
+      {
+        "id": 3,
+        "name": "Alice Johnson",
+        "email": "alicejohnson@example.com"
+      },
+      {
+        "id": 4,
+        "name": "Bob Brown",
+        "email": "bobbrown@example.com"
+      },
+      {
+        "id": 5,
+        "name": "Charlie Davis",
+        "email": "charliedavis@example.com"
+      },
+      {
+        "id": 6,
+        "name": "Emily White",
+        "email": "emilywhite@example.com"
+      },
+      {
+        "id": 7,
+        "name": "Frank Harris",
+        "email": "frankharris@example.com"
+      },
+      {
+        "id": 8,
+        "name": "Grace Lee",
+        "email": "gracelee@example.com"
+      },
+      {
+        "id": 9,
+        "name": "Hannah Martinez",
+        "email": "hannahmartinez@example.com"
+      },
+      {
+        "id": 10,
+        "name": "Isaac Wilson",
+        "email": "isaacwilson@example.com"
+      }
+    ]
+  }
+  
