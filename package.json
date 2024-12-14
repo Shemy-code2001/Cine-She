@@ -1,0 +1,186 @@
+{
+    "movies": [
+      {
+        "id": 1,
+        "url": "https://files-6.vid3rb.com/files/0020250234/9bd652e9-98af-4b50-8277-86d15423da44/480p.mp4?e=1734147235&speed=720&t=SG3rYuEVlmaQiG_3_CzJ3w&noip=yes",
+        "name": "Odd Taxi Movie: In the Woods",
+        "description": "A gripping mystery story that unravels the secrets of the city through intriguing animal characters.",
+        "type": "Mystery, Thriller",
+        "stars": "4.5",
+        "image": "https://i.pinimg.com/736x/ca/7a/20/ca7a20e01a3fe1c1e57ffc91f3a9c6aa.jpg"
+      },
+      {
+        "id": 2,
+        "url": "https://files.vid3rb.com/files/0020250270/9db083a4-75ae-421b-bdba-aabfffcfb8b8/480p.mp4?e=1734147409&speed=720&t=mwo-UVcaSA7krGAbKUe2UA&noip=yes",
+        "name": "Detective Conan Movie: The Million Dollar Guidepost",
+        "description": "A high-stakes detective adventure where Conan unravels a mystery involving a million-dollar fortune.",
+        "type": "Detective, Adventure",
+        "stars": "9.7",
+        "image": "https://i.pinimg.com/736x/38/26/27/382627d0ab330f12e331e2ae6e0e754f.jpg"
+      },
+      {
+        "id": 3,
+        "url": "https://files-5.vid3rb.com/files/0020250211/9b8409a3-7b93-47d0-ac2d-e3446f9af0ec/480p.mp4?e=1734147679&speed=720&t=Lei6HJEixXulTlUg_FhyRA&noip=yes",
+        "name": "Godzilla 1: Planet of the Monsters",
+        "description": "The epic battle between humanity and Godzilla as Earth becomes a planet ruled by monsters.",
+        "type": "Sci-Fi, Action",
+        "stars": "8.2",
+        "image": "https://i.pinimg.com/736x/98/d5/86/98d586044f00116cf817878a6b087ddb.jpg"
+      },
+      {
+        "id": 4,
+        "url": "https://files.vid3rb.com/files/0020250191/9b6acf4f-b3da-4e24-a879-c8cbea2c71d7/480p.mp4?e=1734147757&speed=720&t=Zx2gl5vnxElRHm192kSbog&noip=yes",
+        "name": "Kakushigoto Movie",
+        "description": "A heartwarming story of a father’s secret life and the bond he shares with his daughter.",
+        "type": "Comedy, Drama",
+        "stars": "5.6",
+        "image": "https://i.pinimg.com/736x/0d/13/54/0d1354081f36801c4f8360c41691818f.jpg"
+      },
+      {
+        "id": 5,
+        "url": "https://vk.com/video890230561_456243877?ref_domain=shiid4u.net",
+        "name": "Bark 2023",
+        "description": "A supernatural thriller that delves into mysterious forest phenomena.",
+        "type": "Thriller, Horror",
+        "stars": "4.1",
+        "image": "https://i.pinimg.com/736x/07/ad/5f/07ad5f0d11bbcc73d0610c071a9394ed.jpg"
+      },
+      {
+        "id": 6,
+        "url": "https://vk.com/video890230561_456243570?ref_domain=shiid4u.net",
+        "name": "Gravity 2013",
+        "description": "A visually stunning survival story set in the vast emptiness of space.",
+        "type": "Sci-Fi, Drama",
+        "stars": "7.8",
+        "image": "https://i.pinimg.com/736x/03/98/c5/0398c546349dce88b207a5313eb80919.jpg"
+      },
+      {
+        "id": 7,
+        "url": "https://vk.com/video890230561_456242309?ref_domain=shiid4u.net",
+        "name": "The Window 2024",
+        "description": "A suspenseful drama about a family grappling with secrets revealed through a mysterious window.",
+        "type": "Drama, Mystery",
+        "stars": "7.3",
+        "image": "https://i.pinimg.com/736x/35/87/bb/3587bb11bac01342663af15355629490.jpg"
+      },
+      {
+        "id": 8,
+        "url": "https://tgb4.top15top.shop/hf4wsemfz8ez/Venom.The.Last.Dance.2024.1080p.AMZN.WEB-DL.WeCima.Show.mp4.html?Key=I5GSwXUdYZqKY_w8xu2pZg&Expires=1734144230",
+        "name": "Venom: The Last Dance (2024)",
+        "description": "Venom returns in an action-packed sequel with an intense battle against new foes.",
+        "type": "Action, Superhero",
+        "stars": "9.4",
+        "image": "https://i.pinimg.com/736x/31/29/b6/3129b683a7985bd998ab9d366c237141.jpg"
+      },
+      {
+        "id": 9,
+        "url": "https://tgb4.top15top.shop/6b4f8592ni1f/Extreme.Job.2019.1080p.BluRay.MyCima.TO.mp4.html?Key=V9LsubuWlj-AC9RR8Rh9oQ&Expires=1734143955",
+        "name": "Extreme Job (2019)",
+        "description": "A hilarious tale of undercover detectives running a fried chicken shop while cracking a major case.",
+        "type": "Comedy, Action",
+        "stars": "8.7",
+        "image": "https://i.pinimg.com/736x/6d/fd/9e/6dfd9e59063831adaa127f49d6dfabb2.jpg"
+      },
+      {
+        "id": 10,
+        "url": "https://tgb4.top15top.shop/5mnwujlje47k/road.house2024.1080p.WEB.h264-ETHEL.WECIMA.mp4.html?Key=-ob6-RutLljg5_Iy6Ig7_A&Expires=1734144056",
+        "name": "Road House 2024",
+        "description": "An action-packed reboot of the classic bouncer story set in a dangerous nightclub.",
+        "type": "Action, Drama",
+        "stars": "6.3",
+        "image": "https://i.pinimg.com/736x/98/89/64/9889640db98d2ab440064ef3f0e6a52b.jpg"
+      },
+
+        {
+          "id": 11,
+          "url": "https://tgb4.top15top.shop/ut1btgsfbb56/Dirty.Angels.2024.1080p.AMZN.WEB-DL.Wecima.tube.mp4.html?Key=HW-TQh9gd85ZOmIfMztzJg&Expires=1734143972",
+          "name": "Dirty Angels (2024)",
+          "description": "A group of female soldiers undertakes a daring mission to rescue hostages in the midst of a war zone.",
+          "type": "Action, Thriller",
+          "stars": "8.5",
+        "image": "https://i.pinimg.com/736x/14/aa/fa/14aafadf4b993740c09ba3373a37285c.jpg"
+        },
+        {
+          "id": 12,
+          "url": "https://tgb4.top15top.shop/8awvqc9ykwvd/Inception.2010.1080p.BluRay.MyCima.world.mp4.html?Key=U8dwp_dMYGot-tL16LZYnw&Expires=1734144199",
+          "name": "Inception (2010)",
+          "description": "A skilled thief enters people's dreams to steal secrets but faces challenges when planting an idea.",
+          "type": "Sci-Fi, Thriller",
+          "stars": "9.7",
+        "image": "https://i.pinimg.com/736x/b0/ae/a4/b0aea49646879a043ad9f6ec3002e99f.jpg"
+        },
+        {
+          "id": 13,
+          "url": "https://tgb4.top15top.shop/tcf61ithkfwr/The.Matrix.1999.1080p.BluRay.MyCima.TO.mp4.html?Key=bSAueT-DZocKeg4_we0SVg&Expires=1734145862",
+          "name": "The Matrix (1999)",
+          "description": "A hacker discovers the truth about reality and joins a rebellion against its controllers.",
+          "type": "Sci-Fi, Action",
+          "stars": "8.8",
+        "image": "https://i.pinimg.com/736x/ed/45/16/ed4516338fa5df348c13a2a7ce1e7998.jpg"
+        },
+        {
+          "id": 14,
+          "url": "https://tgb4.top15top.shop/5he4h6d79iai/Interstellar.2014.1080p.BluRay.MyCima.TV.mp4.html?Key=8aFoW8z7MmN321QeRrUjAg&Expires=1734146080",
+          "name": "Interstellar (2014)",
+          "description": "A team of explorers travels through a wormhole to save humanity from a dying Earth.",
+          "type": "Sci-Fi, Adventure",
+          "stars": "9.1",
+        "image": "https://i.pinimg.com/736x/0b/34/ce/0b34ce2145b475247577a5d438a199b0.jpg"
+        },
+        {
+          "id": 15,
+          "url": "https://tgb4.top15top.shop/dv9766iqscgs/A.Beautiful.Mind.2001.1080p.BluRay.MyCima.TO.mp4.html?Key=nTfKVa8f0Lfb0vo8a0mYOA&Expires=1734146137",
+          "name": "A Beautiful Mind (2001)",
+          "description": "The story of John Nash, a mathematical genius battling schizophrenia while achieving greatness.",
+          "type": "Drama, Biography",
+          "stars": "7.8",
+        "image": "https://i.pinimg.com/736x/7b/fa/63/7bfa637e7f6357a96b23b552319614c0.jpg"
+        },
+        {
+          "id": 16,
+          "url": "https://tgb4.top15top.shop/381z05oxv406/The.Conjuring.2013.480p.BluRay.MyCima.TV.mp4.html?Key=g_pep8x3eiYq82u9BGbYlg&Expires=1734145633",
+          "name": "The Conjuring (2013)",
+          "description": "Paranormal investigators Ed and Lorraine Warren face one of their most terrifying cases.",
+          "type": "Horror, Mystery",
+          "stars": "9.5",
+        "image": "https://i.pinimg.com/736x/e6/3e/21/e63e21ebdba9a10143215b990c0d06ce.jpg"
+        },
+        {
+          "id": 17,
+          "url": "https://tgb4.top15top.shop/bl5zq6fvob29/Get.Out.2017.1080p.BluRay.MyCima.TV.mp4.html?Key=VOxGpgI_eZuiPoTW1YlnBw&Expires=1734146275",
+          "name": "Get Out (2017)",
+          "description": "A young Black man uncovers unsettling truths when visiting his white girlfriend's family.",
+          "type": "Horror, Thriller",
+          "stars": "7.7",
+        "image": "https://i.pinimg.com/736x/31/91/e0/3191e01e8ede50a2fc85d4bfb20d239d.jpg"
+        },
+        {
+          "id": 18,
+          "url": "https://tgb4.top15top.shop/qhgb87ev800k/La.La.Land.2016.1080p.BluRay.Wecima.mp4.html?Key=VtGO34bHgo-AYR5V71Vbcg&Expires=1734146344",
+          "name": "La La Land (2016)",
+          "description": "A musician and an actress navigate love and ambition in Los Angeles.",
+          "type": "Romance, Musical",
+          "stars": "8.8",
+        "image": "https://i.pinimg.com/736x/a3/fe/19/a3fe1953058d51294b8c061a9f76ead7.jpg"
+        },
+        {
+          "id": 19,
+          "url": "https://tgb4.top15top.shop/csnz74r6q55h/_WeCima.Show_Aporia.2023.1080p.mp4.html?Key=UHd4Ie8iAgvZGV8da_oEzQ&Expires=1734146441",
+          "name": "Aporia (2023)",
+          "description": "A grieving widow wrestles with the moral dilemmas of altering time to change her fate.",
+          "type": "Drama, Sci-Fi",
+          "stars": "7.3",
+        "image": "https://i.pinimg.com/736x/21/5a/e0/215ae0727e95c6d629769a69d4a3a361.jpg"
+        },
+        {
+          "id": 20,
+          "url": "https://tgb4.top15top.shop/ikbnjyou6u1c/Elevation.2024.1080p.WEBRip.AR.DUB.WeCima.Show.mp4.html?Key=ylB9OO74-HegAbXAjNJYhA&Expires=1734144910",
+          "name": "Elevation (2024)",
+          "description": "A daring climber faces the ultimate challenge when the stakes are higher than ever.",
+          "type": "Action, Thriller",
+          "stars": "7.2",
+        "image": "https://i.pinimg.com/736x/40/fd/74/40fd748d228ad5e508887f58bb8d05b3.jpg"
+        }
+    ]
+  }
+  
