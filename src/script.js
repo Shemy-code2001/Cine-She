@@ -1,15 +1,14 @@
 fetch('package.json')  
 .then(response => {
     if (!response.ok) {
-        throw new Error('Reload error in file json');
+        throw new Error('Error loading JSON file');
     }
     return response.json();
 })
 .then(data => {
     const moviesList = document.getElementById('movies-list');  
     const videoModal = document.getElementById('videoModal');
-    const moviePlayer = document.getElementById('moviePlayer');
-    const movieSource = document.getElementById('movieSource');
+    const modalContent = document.querySelector('.video-modal-content');
     const closeModalBtn = document.querySelector('.video-modal-close');
 
     data.movies.forEach(movie => {
@@ -31,78 +30,53 @@ fetch('package.json')
             </div>
         `;
 
-        // Add event listeners for both hover and click interactions
-        const playButton = movieElement.querySelector('.play-button');
-        const playContainer = playButton.closest('.feature-hover-overlay');
-
-        // Function to open movie modal
+        // open modal
         const openMovieModal = () => {
-            movieSource.src = movie.url;
-            moviePlayer.load();
+            modalContent.innerHTML = ''; 
+
+            if (movie.url.includes('youtu.be') || movie.url.includes('youtube.com')) {
+                // Lien YouTube
+                const youtubeEmbedUrl = movie.url.replace('youtu.be/', 'www.youtube.com/embed/')
+                                                  .replace('watch?v=', 'embed/');
+                const iframe = document.createElement('iframe');
+                iframe.src = youtubeEmbedUrl;
+                iframe.width = "100%";
+                iframe.height = "100%";
+                iframe.allow = "autoplay; encrypted-media";
+                iframe.allowFullscreen = true;
+                modalContent.appendChild(iframe);
+            } else {
+                // Fichier vidéo direct
+                const videoPlayer = document.createElement('video');
+                videoPlayer.setAttribute('controls', 'true');
+                videoPlayer.style.width = '100%';
+                const source = document.createElement('source');
+                source.src = movie.url;
+                source.type = 'video/mp4';
+                videoPlayer.appendChild(source);
+                modalContent.appendChild(videoPlayer);
+            }
+
             videoModal.style.display = 'flex';
         };
 
-        // For desktop: hover interactions
-        playContainer.addEventListener('mouseenter', () => {
-            if (window.innerWidth > 768) {
-                playButton.style.opacity = '1';
-            }
-        });
-
-        playContainer.addEventListener('mouseleave', () => {
-            if (window.innerWidth > 768) {
-                playButton.style.opacity = '0';
-            }
-        });
-
-        // For both desktop and mobile: click interactions
+        // add event
+        const playButton = movieElement.querySelector('.play-button');
         playButton.addEventListener('click', openMovieModal);
-        
-        // Add a fallback for mobile to click on the entire card
-        movieElement.addEventListener('click', (event) => {
-            // Prevent opening if clicking on hover overlay with play button
-            if (event.target !== playButton && window.innerWidth <= 768) {
-                openMovieModal();
-            }
-        });
 
         moviesList.appendChild(movieElement);
     });
-
-    // Close modal functionality
+    // delete modal
     closeModalBtn.addEventListener('click', () => {
         videoModal.style.display = 'none';
-        moviePlayer.pause();
-        moviePlayer.currentTime = 0;
+        modalContent.innerHTML = ''; 
     });
-
-    // Close modal when clicking outside the video
     videoModal.addEventListener('click', (event) => {
         if (event.target === videoModal) {
             videoModal.style.display = 'none';
-            moviePlayer.pause();
-            moviePlayer.currentTime = 0;
+            modalContent.innerHTML = ''; 
         }
     });
-
-    // Responsive design adjustments
-    const adjustPlayButtonVisibility = () => {
-        const playButtons = document.querySelectorAll('.feature-hover-overlay');
-        playButtons.forEach(overlay => {
-            const playButton = overlay.querySelector('.play-button');
-            if (window.innerWidth <= 768) {
-                // On mobile, make play button always visible
-                playButton.style.opacity = '1';
-            } else {
-                // On desktop, restore hover behavior
-                playButton.style.opacity = '0';
-            }
-        });
-    };
-
-    // Initial adjustment and add resize listener
-    adjustPlayButtonVisibility();
-    window.addEventListener('resize', adjustPlayButtonVisibility);
 })
 .catch(error => {
     console.error('Error:', error);
