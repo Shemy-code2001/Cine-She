@@ -30,3 +30,4 @@ document.getElementById("subscribe").addEventListener("click", function () {
             alert("Unable to verify the email at this time.");
         });
 });
+
